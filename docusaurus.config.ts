@@ -70,6 +70,12 @@ const config: Config = {
 					position: 'left',
 					label: 'Tutorial',
 				},
+				{
+					type: 'docSidebar',
+					sidebarId: 'tutorialSidebar',
+					position: 'left',
+					label: 'Strapi',
+				},
 				{ to: '/blog', label: 'Blog', position: 'left' },
 				{
 					href: 'https://github.com/facebook/docusaurus',
