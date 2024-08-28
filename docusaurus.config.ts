@@ -74,7 +74,7 @@ const config: Config = {
 			},
 		],
 		[
-			'./src/plugin/plugin-content-blog', // 为了实现全局 blog 数据，必须改写 plugin-content-blog 插件
+			'./src/plugin/plugin-content-blog',
 			{
 				path: 'blog',
 				editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
@@ -218,6 +218,14 @@ Love what you do and do what you love.
 		prism: {
 			theme: prismThemes.oneLight,
 			darkTheme: prismThemes.oneDark,
+		},
+		giscus: {
+			repo: 'vnambs/blog-comment',
+			repoId: 'R_kgDOMpjhBQ',
+			category: 'General',
+			categoryId: 'DIC_kwDOMpjhBc4CiAjj',
+			theme: 'light',
+			darkTheme: 'dark_dimmed',
 		},
 	} satisfies Preset.ThemeConfig,
 };
