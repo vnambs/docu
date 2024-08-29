@@ -1,3 +1,10 @@
+---
+id: certbot
+slug: /certbot
+title: Certbot
+authors: vnambs
+---
+
 ## Nginx on Ubuntu 20
 
 - **SSH into the server**

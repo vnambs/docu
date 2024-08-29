@@ -1,3 +1,9 @@
+---
+id: nginx-strapi
+slug: /nginx-strapi
+title: Nginx and Strapi
+authors: vnambs
+---
 # NGINX and Strapi
 # **Strapi on NGINX, AWS ec2 ubuntu server**
 

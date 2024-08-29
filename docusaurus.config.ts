@@ -43,6 +43,9 @@ const config: Config = {
 				theme: {
 					customCss: './src/css/custom.css',
 				},
+				sitemap: {
+					priority: 0.5,
+				},
 			} satisfies Preset.Options,
 		],
 	],
@@ -80,7 +83,8 @@ const config: Config = {
 				editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
 					`https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
 				editLocalizedFiles: false,
-				blogDescription: '代码人生：编织技术与生活的博客之旅',
+				blogDescription:
+					'Code Life: Weaving a Journey of Technology and Blogging',
 				blogSidebarCount: 10,
 				blogSidebarTitle: 'Blogs',
 				postsPerPage: 12,
@@ -149,24 +153,20 @@ Love what you do and do what you love.
 				alt: 'My Site Logo',
 				src: 'img/logo.svg',
 			},
+			hideOnScroll: true,
 			items: [
+				{ label: 'Blog', position: 'right', to: 'blog' },
+				{ label: 'Projects', position: 'right', to: 'project' },
+				{ label: 'Friends Links', position: 'right', to: 'friends' },
+				{ label: 'About', position: 'right', to: 'about' },
 				{
-					type: 'docSidebar',
-					sidebarId: 'tutorialSidebar',
-					position: 'left',
-					label: 'Tutorial',
-				},
-				{
-					type: 'docSidebar',
-					sidebarId: 'tutorialSidebar',
-					position: 'left',
-					label: 'Strapi',
-				},
-				{ to: '/blog', label: 'Blog', position: 'left' },
-				{
-					href: 'https://github.com/facebook/docusaurus',
-					label: 'GitHub',
+					label: 'More',
 					position: 'right',
+					items: [
+						{ label: 'Archive', to: 'blog/archive' },
+						{ label: 'Notes', to: 'docs/skill' },
+						{ label: 'Tool Recommendations', to: 'docs/tools' },
+					],
 				},
 			],
 		},
@@ -214,6 +214,11 @@ Love what you do and do what you love.
 				},
 			],
 			copyright: `Copyright © ${new Date().getFullYear()} Voary Nambinina, Inc. Built with Docusaurus.`,
+		},
+		algolia: {
+			appId: 'P8CX7KSFPX',
+			apiKey: '43d6d836bd079df669c03f87b31cdc18',
+			indexName: 'vnambs',
 		},
 		prism: {
 			theme: prismThemes.oneLight,

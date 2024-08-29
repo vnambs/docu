@@ -1,3 +1,10 @@
+---
+id: aws-deploy
+slug: /aws-deploy
+title: AWS deployement
+authors: vnambs
+---
+
 ### Configure EC2 as a Node.js server[​](https://docs.strapi.io/dev-docs/deployment/amazon-aws#configure-ec2-as-a-nodejs-server "Direct link to Configure EC2 as a Node.js server")
 
 You will set-up your EC2 server as a Node.js server. Including basic configuration and Git.

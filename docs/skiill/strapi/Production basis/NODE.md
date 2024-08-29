@@ -1,3 +1,10 @@
+---
+id: node
+slug: /node
+title: Installing Node
+authors: vnambs
+---
+
 # Install NVM on Ubuntu 20.04
 
 [https://tecadmin.net/how-to-install-nvm-on-ubuntu-20-04/](installing node version manager)

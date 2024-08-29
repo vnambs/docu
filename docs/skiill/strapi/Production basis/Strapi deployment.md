@@ -1,3 +1,10 @@
+---
+id: strapi-deploy
+slug: /strapi-deploy
+title: Strapi deployement
+authors: vnambs
+---
+
 # Strapi Deployment
 
 #### 1. Configure[​](https://docs.strapi.io/dev-docs/deployment#1-configure "Direct link to 1. Configure")

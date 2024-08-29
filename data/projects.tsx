@@ -1,7 +1,8 @@
 export const projects: Project[] = [
 	{
-		title: '愧怍的小站',
-		description: '🦖 基于 Docusaurus 静态网站生成器实现个人博客',
+		title: 'Jonathan Bloging attempt',
+		description:
+			'🦖 Creating a Personal Blog Using the Docusaurus Static Site Generator',
 		preview: '/docu/img/project/blog.png',
 		website: 'https://kuizuo.cn',
 		source: 'https://github.com/kuizuo/blog',
