@@ -178,7 +178,7 @@ Love what you do and do what you love.
 					items: [
 						{
 							label: 'Tutorial',
-							to: '/docs/intro',
+							to: '/docs/skill',
 						},
 					],
 				},

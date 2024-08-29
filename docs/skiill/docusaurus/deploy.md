@@ -5,7 +5,7 @@ title: Deployment
 authors: vnambs
 ---
 
-Previously, I used [Vercel](https://vercel.com) for deployment with minimal configuration. This allowed me to focus solely on content creation. You can check out my article on deploying with Vercel [here](/blog/vercel-deploy-blog).
+Previously, I used [Vercel](https://vercel.com) for deployment with minimal configuration. This allowed me to focus solely on content creation. You can check out my article on deploying with Vercel [here](/docs/skill).
 
 However, `vercel.app` has been affected by DNS pollution, which means it is blocked in mainland China. Even though using a custom domain pointed to Vercel might work, the speed of DNS resolution for mainland China will inevitably slow down, affecting site performance.
 
