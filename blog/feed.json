@@ -1,0 +1,17 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "愧怍",
+    "home_page_url": "https://vnambs.github.io/docu/blog",
+    "description": "Voary Nambinina - Documentation Blog",
+    "items": [
+        {
+            "id": "https://vnambs.github.io/docu/blog/develop/welcome",
+            "content_html": "<p><img decoding=\"async\" loading=\"lazy\" alt=\"Welcome\" src=\"https://vnambs.github.io/docu/assets/images/working-20a4ea51a3a91a019e4a49cfa6ecc77a.jpeg\" width=\"1024\" height=\"1024\" class=\"img_ev3q\"></p>\n<p>We are thrilled to have you here. Our team is diligently working to create beautiful and engaging content just for you.</p>\n<p>Stay tuned for exciting updates as we continue to enhance your experience!</p>\n<p>Thank you for your patience and support.</p>\n<p>Best regards,</p>\n<p><strong>Jonathan Voary Nambinina</strong></p>",
+            "url": "https://vnambs.github.io/docu/blog/develop/welcome",
+            "title": "Welcome!",
+            "summary": "Welcome",
+            "date_modified": "2024-08-29T11:12:33.000Z",
+            "tags": []
+        }
+    ]
+}

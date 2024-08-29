@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[5497],{3889:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/docu/blog","page":1,"postsPerPage":12,"totalPages":1,"totalCount":1,"blogDescription":"Code Life: Weaving a Journey of Technology and Blogging","blogTitle":"Blog"}}')}}]);
