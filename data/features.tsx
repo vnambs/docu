@@ -1,8 +1,8 @@
 import Translate, { translate } from '@docusaurus/Translate';
 import { Icon } from '@iconify/react';
-import OpenSourceSvg from '@site/static/svg/undraw_open_source.svg';
-import SpiderSvg from '@site/static/svg/undraw_spider.svg';
-import WebDeveloperSvg from '@site/static/svg/web_developer.svg';
+import OpenSourceSvg from '@site/static/svg/right.svg';
+import SpiderSvg from '@site/static/svg/web_developer.svg';
+import WebDeveloperSvg from '@site/static/svg/left.svg';
 
 export type FeatureItem = {
 	title: string | React.ReactNode;
@@ -41,14 +41,12 @@ const FEATURES: FeatureItem[] = [
 	{
 		title: translate({
 			id: 'homepage.feature.spider',
-			message: 'A bit of reverse engineering & web scraping.',
+			message: 'A bit of web scraping.',
 		}),
 		description: (
 			<Translate>
-				As a developer who is full of curiosity in new technologies, I have a
-				strong interest in reverse engineering and have developed exceptional
-				code-reading skills. There is no code that I can't understand, only code
-				that I don't want to read
+				As a developer who is full of curiosity in new technologies. There is no
+				code that I can't understand, only code that I don't want to read
 			</Translate>
 		),
 		header: (
@@ -62,13 +60,13 @@ const FEATURES: FeatureItem[] = [
 	{
 		title: translate({
 			id: 'homepage.feature.enthusiast',
-			message: 'Open-source enthusiast',
+			message: 'Design and Illustrations',
 		}),
 		description: (
 			<Translate>
-				As an open-source enthusiast, I actively participate in the open-source
-				community and contribute code to various projects. I hope to create a
-				well-known open-source project in my lifetime.
+				With a deep passion for illustration, I immerse myself in the art of
+				manga, constantly pushing my creative boundaries. I aspire to create
+				some illustrations that resonates with readers worldwide
 			</Translate>
 		),
 		header: (

@@ -1,111 +1,148 @@
 export const Friends: Friend[] = [
-  {
-    title: '峰华前端工程师',
-    description: '致力于帮助你以最直观、最快速的方式学会前端开发',
-    website: 'https://zxuqian.cn',
-    avatar: '/img/friend/zxuqian.png',
-  },
-  {
-    title: 'Mas0n',
-    description: '梦想是咸鱼',
-    website: 'https://mas0n.org/',
-    avatar: '/img/friend/mas0n.png',
-  },
-  {
-    title: 'Jetzihan',
-    description: 'A bug maker.',
-    website: 'https://www.jet-lab.site/',
-    avatar: '/img/friend/jetzihan.png',
-  },
-  {
-    title: 'Pincman',
-    description: '中年老码农,专注于全栈开发与教学',
-    website: 'https://pincman.com',
-    avatar: '/img/friend/pincman.png',
-  },
-  {
-    title: 'Opacity',
-    description: '助力每一个梦想',
-    website: 'https://www.opacity.ink',
-    avatar: '/img/friend/opacity.png',
-  },
-  {
-    title: '静かな森',
-    description: '致虚极，守静笃',
-    website: 'https://innei.in',
-    avatar: '/img/friend/innei.png',
-  },
-  {
-    title: 'Simon He',
-    description: 'Front-end development, Open source',
-    website: 'https://simonme.netlify.app',
-    avatar: '/img/friend/simonme.png',
-  },
-  {
-    title: 'SkyWT',
-    description: '热爱与激情永不止息。',
-    website: 'https://skywt.cn',
-    avatar: '/img/friend/skywt.png',
-  },
-  {
-    title: 'Licodeao',
-    description: 'The water flows incessantly, without vying for precedence.',
-    website: 'https://www.licodeao.top',
-    avatar: '/img/friend/licodeao.png',
-  },
-  {
-    title: '云小逸',
-    description: '不积跬步，无以至千里',
-    website: 'https://www.gerenbiji.com',
-    avatar: 'https://www.gerenbiji.com/img/logo.jpg',
-  },
-  {
-    title: 'CWorld Blog',
-    description: '求知若愚，虚怀若谷',
-    website: 'https://cworld.top',
-    avatar: '/img/friend/cworld.png',
-  },
-  {
-    title: '尚宇',
-    description: '心怀理想，仰望星空，埋头苦干',
-    website: 'https://www.disnox.top',
-    avatar: '/img/friend/disnox.png',
-  },
-  {
-    title: 'Meoo',
-    description: '一杯茶，一根网线，一台电脑',
-    website: 'https://cxorz.com',
-    avatar: '/img/friend/meoo.png',
-  },
-  {
-    title: 'Shake',
-    description: '世界继续热闹，愿你不变模样，勇敢且自由😃',
-    website: 'https://www.shaking.site',
-    avatar: '/img/friend/shake.png',
-  },
-  {
-    title: 'Alan',
-    description: '此刻想举重若轻，之前必要负重前行',
-    website: 'https://www.alanwang.site',
-    avatar: '/img/friend/alan.png',
-  },
-  {
-    title: '鲸落',
-    description: '心中无女人，代码自然神',
-    website: 'http://www.xiaojunnan.cn',
-    avatar: '/img/friend/xiaojunnan.png',
-  },
-  {
-    title: 'LineXic书屋',
-    description: '念念不忘，必有回响',
-    website: 'https://linexic.top',
-    avatar: '/img/friend/linexic.png',
-  },
-]
-
+	{
+		title: 'React',
+		description: 'A JavaScript library for building user interfaces.',
+		website: 'https://reactjs.org/',
+		avatar:
+			'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg',
+	},
+	{
+		title: 'Vue.js',
+		description: 'The Progressive JavaScript Framework.',
+		website: 'https://vuejs.org/',
+		avatar:
+			'https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg',
+	},
+	{
+		title: 'Angular',
+		description: 'One framework. Mobile & desktop.',
+		website: 'https://angular.io/',
+		avatar:
+			'https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg',
+	},
+	{
+		title: 'Tailwind CSS',
+		description: 'A utility-first CSS framework.',
+		website: 'https://tailwindcss.com/',
+		avatar:
+			'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg',
+	},
+	{
+		title: 'TypeScript',
+		description:
+			'A strongly typed programming language that builds on JavaScript.',
+		website: 'https://www.typescriptlang.org/',
+		avatar:
+			'https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg',
+	},
+	{
+		title: 'Next.js',
+		description: 'The React framework for production.',
+		website: 'https://nextjs.org/',
+		avatar:
+			'https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg',
+	},
+	{
+		title: 'GraphQL',
+		description: 'A query language for your API.',
+		website: 'https://graphql.org/',
+		avatar:
+			'https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg',
+	},
+	{
+		title: 'Webpack',
+		description: 'A static module bundler for modern JavaScript applications.',
+		website: 'https://webpack.js.org/',
+		avatar: 'https://upload.wikimedia.org/wikipedia/commons/9/94/Webpack.svg',
+	},
+	{
+		title: 'Vite',
+		description: 'Next Generation Frontend Tooling.',
+		website: 'https://vitejs.dev/',
+		avatar: 'https://vitejs.dev/logo.svg',
+	},
+	{
+		title: 'Bootstrap',
+		description: 'The most popular HTML, CSS, and JS library in the world.',
+		website: 'https://getbootstrap.com/',
+		avatar:
+			'https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg',
+	},
+	{
+		title: 'jQuery',
+		description: 'A fast, small, and feature-rich JavaScript library.',
+		website: 'https://jquery.com/',
+		avatar: 'https://upload.wikimedia.org/wikipedia/en/9/9e/JQuery_logo.svg',
+	},
+	{
+		title: 'Figma',
+		description: 'A design tool for the web.',
+		website: 'https://www.figma.com/',
+		avatar:
+			'https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg',
+	},
+	{
+		title: 'ESLint',
+		description: 'Find and fix problems in your JavaScript code.',
+		website: 'https://eslint.org/',
+		avatar:
+			'https://upload.wikimedia.org/wikipedia/commons/e/e3/ESLint_logo.svg',
+	},
+	{
+		title: 'Redux',
+		description: 'A Predictable State Container for JS Apps.',
+		website: 'https://redux.js.org/',
+		avatar: 'https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png',
+	},
+	{
+		title: 'Docusaurus',
+		description: 'An optimized site generator for React.',
+		website: 'https://docusaurus.io/',
+		avatar: 'https://docusaurus.io/img/docusaurus.svg',
+	},
+	{
+		title: 'Symfony',
+		description: 'A PHP framework for web applications.',
+		website: 'https://symfony.com/',
+		avatar: 'https://symfony.com/logos/symfony_black_03.svg',
+	},
+	{
+		title: 'WordPress',
+		description: 'A free and open-source content management system.',
+		website: 'https://wordpress.org/',
+		avatar:
+			'https://upload.wikimedia.org/wikipedia/commons/0/09/Wordpress-Logo.svg',
+	},
+	{
+		title: 'PHP',
+		description:
+			'A popular general-purpose scripting language for web development.',
+		website: 'https://www.php.net/',
+		avatar: 'https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg',
+	},
+	{
+		title: 'Python',
+		description: 'A powerful programming language that is easy to learn.',
+		website: 'https://www.python.org/',
+		avatar:
+			'https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg',
+	},
+	{
+		title: 'Odoo',
+		description: 'An open-source suite of business apps.',
+		website: 'https://www.odoo.com/',
+		avatar: 'https://www.odoo.com/web/image/website/1/logo/Odoo',
+	},
+	{
+		title: 'Laravel',
+		description: 'A PHP framework for web artisans.',
+		website: 'https://laravel.com/',
+		avatar: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg',
+	},
+];
 export type Friend = {
-  title: string
-  description: string
-  website: string
-  avatar?: string
-}
+	title: string;
+	description: string;
+	website: string;
+	avatar?: string;
+};
