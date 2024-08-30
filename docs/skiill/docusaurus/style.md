@@ -25,4 +25,4 @@ The SVG background file for the homepage is located at `src/components/Hero/img/
 
 ## Custom Pages
 
-Pages such as [Archive](/blog/archive), [Links](/friends), [Navigation](/docs/skill), [Projects](/project), and [About Me](/about) are defined in the `src/pages` directory, with routes mapped according to the file names. For more on creating pages, see [Creating Pages | Docusaurus](https://docusaurus.io/zh-CN/docs/creating-pages).
+Pages such as [Archive](/blog/archive), [Links](/topic), [Navigation](/docs/skill), [Projects](/project), and [About Me](/about) are defined in the `src/pages` directory, with routes mapped according to the file names. For more on creating pages, see [Creating Pages | Docusaurus](https://docusaurus.io/zh-CN/docs/creating-pages).
