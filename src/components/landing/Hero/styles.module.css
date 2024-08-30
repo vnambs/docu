@@ -103,4 +103,7 @@
   .intro {
     @apply pt-8;
   }
+  .hero_text {
+  @apply px-4;
+}
 }

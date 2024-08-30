@@ -90,7 +90,7 @@ export default function Hero() {
 						borderRadius='1.25rem'
 						className='relative z-10 flex items-center rounded-2xl border border-neutral-200 border-solid bg-background px-5 py-3 text-center font-semibold text-base dark:border-neutral-800'>
 						<a
-							href={'/about'}
+							href={'/docu/about'}
 							className='font-semibold'>
 							<Translate id='hompage.hero.introduce'>At a glance</Translate>
 						</a>
