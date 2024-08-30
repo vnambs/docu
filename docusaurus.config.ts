@@ -1,6 +1,7 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import social from './data/social';
 
 const config: Config = {
 	title: 'Voary Nambinina - Documentation',
@@ -81,7 +82,7 @@ const config: Config = {
 			{
 				path: 'blog',
 				editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
-					`https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
+					`https://github.com/vnambs/docu/edit/main/${blogDirPath}/${blogPath}`,
 				editLocalizedFiles: false,
 				blogDescription:
 					'Code Life: Weaving a Journey of Technology and Blogging',
@@ -93,8 +94,8 @@ const config: Config = {
 					defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
 				feedOptions: {
 					type: 'all',
-					title: '愧怍',
-					copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">test</a></p>`,
+					title: 'Documentations',
+					copyright: `Copyright © ${new Date().getFullYear()} Documentations Built with Docusaurus.<p><a href="http://vnambs.github.io" class="footer_lin">Portfolio home</a></p>`,
 				},
 			},
 		],
@@ -120,13 +121,13 @@ const config: Config = {
 								innerHTML: `
     (${function () {
 			console.log(
-				`%c Kz Blog %c https://github.com/kuizuo/blog`,
+				`%c vnambs Blog %c https://github.com/vnambs/docu`,
 				'color: #fff; margin: 1em 0; padding: 5px 0; background: #12affa;',
 				'margin: 1em 0; padding: 5px 0; background: #efefef;'
 			);
 
 			const motto = `
-This Webisite Powered By Kz Blog.
+This Webisite Powered By vnambs Blog.
 Written by Docusaurus, Coding with Love.
 --------
 Love what you do and do what you love.
@@ -148,16 +149,16 @@ Love what you do and do what you love.
 		// Replace with your project's social card
 		image: 'img/docusaurus-social-card.jpg',
 		navbar: {
-			title: 'Voary Nambinina',
+			title: 'Jonathan Voary Nambinina',
 			logo: {
 				alt: 'My Site Logo',
-				src: 'img/logo.svg',
+				src: 'img/logos.jpg',
 			},
 			hideOnScroll: true,
 			items: [
 				{ label: 'Blog', position: 'right', to: 'blog' },
 				{ label: 'Projects', position: 'right', to: 'project' },
-				{ label: 'Friends Links', position: 'right', to: 'friends' },
+				{ label: 'Topics', position: 'right', to: 'topic' },
 				{ label: 'About', position: 'right', to: 'about' },
 				{
 					label: 'More',
@@ -176,40 +177,23 @@ Love what you do and do what you love.
 				{
 					title: 'Docs',
 					items: [
-						{
-							label: 'Tutorial',
-							to: '/docs/skill',
-						},
+						{ label: 'Blog', position: 'right', to: 'blog' },
+						{ label: 'Projects', position: 'right', to: 'project' },
+						{ label: 'Topics', position: 'right', to: 'topic' },
+						{ label: 'About', position: 'right', to: 'about' },
+
+						{ label: 'Archive', to: 'blog/archive' },
+						{ label: 'Notes', to: 'docs/skill' },
+						{ label: 'Tool Recommendations', to: 'docs/tools' },
 					],
 				},
 				{
-					title: 'Community',
+					title: 'About',
 					items: [
-						{
-							label: 'Stack Overflow',
-							href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-						},
-						{
-							label: 'Discord',
-							href: 'https://discordapp.com/invite/docusaurus',
-						},
-						{
-							label: 'Twitter',
-							href: 'https://twitter.com/docusaurus',
-						},
-					],
-				},
-				{
-					title: 'More',
-					items: [
-						{
-							label: 'Blog',
-							to: '/blog',
-						},
-						{
-							label: 'GitHub',
-							href: 'https://github.com/facebook/docusaurus',
-						},
+						{ label: 'About', to: '/about' },
+						{ label: 'GitHub', href: social.github.href },
+						{ label: 'Twitter', href: social.x.href },
+						{ label: 'Discord', href: social.discord.href },
 					],
 				},
 			],
