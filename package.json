@@ -21,6 +21,8 @@
   },
   "dependencies": {
     "@docusaurus/core": "^3.5.2",
+    "@docusaurus/plugin-google-gtag": "^3.5.2",
+    "@docusaurus/plugin-google-tag-manager": "^3.5.2",
     "@docusaurus/plugin-ideal-image": "^3.5.2",
     "@docusaurus/plugin-pwa": "^3.5.2",
     "@docusaurus/plugin-vercel-analytics": "^3.5.2",

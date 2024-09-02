@@ -4,8 +4,9 @@ import type * as Preset from '@docusaurus/preset-classic';
 import social from './data/social';
 
 const config: Config = {
-	title: 'Voary Nambinina - Documentation',
-	tagline: 'Documentation made with docusaurus',
+	title: 'My Portfolio Documentation - Jonathan Voary Nambinina',
+	tagline:
+		'Discover my portfolio, web development projects, skills, and professional experience.',
 	favicon: 'img/favicon.ico',
 
 	// Set the production url of your site here
@@ -51,6 +52,19 @@ const config: Config = {
 		],
 	],
 	plugins: [
+		[
+			'@docusaurus/plugin-google-gtag',
+			{
+				trackingID: 'GTM-56PB2F8R',
+				anonymizeIP: true,
+			},
+		],
+		[
+			'@docusaurus/plugin-google-tag-manager',
+			{
+				containerId: 'GTM-56PB2F8R',
+			},
+		],
 		'docusaurus-plugin-image-zoom',
 		'@docusaurus/plugin-ideal-image',
 		// ['docusaurus-plugin-baidu-tongji', { token: 'c9a3849aa75f9c4a4e65f846cd1a5155' }],
